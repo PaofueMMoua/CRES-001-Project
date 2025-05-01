@@ -88,28 +88,16 @@ header {
     align-items: center;
     justify-content: space-evenly;
   }
-  
-  .nav-item {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .nav-item a {
-    text-decoration: none;
-    font-size: 15px;
-    font-size: large;
-    font-weight: bold;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    color:#EAF4F4
-  }
 
   a {
     text-decoration: none;
-    font-size:15px;
     color:#4a5f56;
+    font-size:2vw;
   }
+
+
+
+  
 
   button {
     background-color:#A4C3B2;
@@ -117,4 +105,37 @@ header {
     height: 10%;
     width: 50%;
     align-self: center;
+    justify-self:end;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+    font-size:2vw;
   }
+  
+  p {
+    font-size: 2vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+  button a {
+    align-self: center;
+    justify-self: center;
+  }
+  .nav-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color:#EAF4F4
+}
+
