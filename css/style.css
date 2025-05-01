@@ -2,5 +2,119 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #5275b1;
+    background-color: #CCE3DE;
+    margin:0px;
+    padding:0px;
 }
+
+.main {
+    margin:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.hero_img {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat:repeat;
+    width: 100%;
+    height: 75vh;
+    background-color:#A4C3B2;
+}
+
+.img_text {
+    color:#4a5f56;
+}
+
+.column {
+    display:flex;
+    flex-direction:column;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+}
+
+.half_column {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    height:50vw;
+    padding:3vw;
+    background-color:#6B9080;
+    border: solid 1vw #EAF4F4;
+}
+
+.half_column h2, .half_column p {
+    color:#CCE3DE;
+}
+
+.dark-green {
+    background-color:#4a5f56;
+}
+
+.light-green {
+    background-color:#A4C3B2
+}
+
+.green {
+    background-color: #6B9080;
+}
+
+.green_2 {
+    background-color: #7fa891;
+}
+
+header {
+    width: 100%;
+    height: 15vw;
+    background-color: #4a5f56;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .nav-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    font-size: 15px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color:#EAF4F4
+  }
+
+  a {
+    text-decoration: none;
+    font-size:15px;
+    color:#4a5f56;
+  }
+
+  button {
+    background-color:#A4C3B2;
+    border:none;
+    height: 10%;
+    width: 50%;
+    align-self: center;
+  }
