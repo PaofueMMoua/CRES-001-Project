@@ -5,6 +5,7 @@ body {
     background-color: #CCE3DE;
     margin:0px;
     padding:0px;
+    overflow-y:auto;
 }
 
 .main {
@@ -73,12 +74,14 @@ body {
     background-color: #7fa891;
 }
 
-header {
+header, .footer{
     width: 100%;
-    height: 15vw;
+    height: 8vw;
     background-color: #4a5f56;
     display: flex;
     align-items: center;
+    /* position:sticky;
+    top:0px; */
   }
   
   .nav-bar {
@@ -87,6 +90,7 @@ header {
     width: 100vw;
     align-items: center;
     justify-content: space-evenly;
+    background-color:#4a5f56;
   }
 
   a {
@@ -94,10 +98,6 @@ header {
     color:#4a5f56;
     font-size:2vw;
   }
-
-
-
-  
 
   button {
     background-color:#A4C3B2;
@@ -139,3 +139,6 @@ header {
     color:#EAF4F4
 }
 
+button:hover {
+  cursor:pointer;
+}
